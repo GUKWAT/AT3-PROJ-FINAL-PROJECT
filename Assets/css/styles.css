@@ -44,7 +44,7 @@ a {
 
 main {
     padding: 20px;
-    background-color: black;
+    background-color: white;
     width: 100%;
     text-align: center;
     border: 1px solid #1B3366;
@@ -57,16 +57,7 @@ main {
     color: aliceblue;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%; 
-    background: black;
-    color: white;
-    text-align: center;
-    padding: 10px; 
-}
+
 
 section {
     border: 1px solid black;
@@ -95,8 +86,41 @@ form {
     color: aliceblue;
 }
 
+aside {
+    
+    border: 1px solid black;
+    justify-self: end;
+    grid-column: 3;
+    grid-row: 1;
+    background-color: #2A669F;
+    padding: 20px;
+    display: block;
+}
 
+aside > section {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
 
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    color: black;
+    font-size: 1em;
+}
 @media screen and (max-width: 767px) {
 
 nav {
