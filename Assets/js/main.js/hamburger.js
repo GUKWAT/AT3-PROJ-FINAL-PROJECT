@@ -1,9 +1,6 @@
-document.addEventListener('DOMContentLoaded', function () {
-    var navUl = document.querySelector('nav ul');
-    var menuToggle = document.querySelector('.menu-toggle');
-
-    menuToggle.addEventListener('click', function () {
-      navUl.classList.toggle('show');
-    });
-  });
-
+var menu = document.getElementById('menu');
+        function toggleMenu() {
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('w-full');
+            menu.classList.toggle('h-screen');
+        }
