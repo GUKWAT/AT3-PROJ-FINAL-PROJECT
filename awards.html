@@ -1,109 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="description" content="Description of your site">
     <meta name="keywords" content="keywords, separated, by, commas">
     <meta name="author" content="Author's Name">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/css/styles.css">
-    
     <link rel="stylesheet" href="./Assets/css/site.css">
     <title>Tadiwanashe Gukwa</title>
-  </head>
-  <body>
+</head>
+<body>
 
-    <header class="sticky top-0 flex flex-col md:flex-row justify-between p-6 mx-auto bg-black text-gray-200">
-    
-      <h2 class ="text-lg font-bold">Tadiwanashe Gukwa</h2>
-      
-        
-  
-      
-      <nav class="shadow sm:flex-row sm:items-center md:flex md:items-center md:justify-between">
-        <div class="flex justify-between items-center">
-          <span class="text-2xl font-[Poppins] cursor-pointer">
-          
-          </span>
-          <span class="text-3xl cursor-pointer mx-2 md:hidden block">
-            <ion-icon name="menu" onclick="toggleMenu()"></ion-icon>
-          </span>
-        </div>
-  
-        <ul class="md:flex md:items-center sm:flex flex:row sm:space-x-4 sm:items-center  w-full md:w-auto md:py-0 py-4 md:pl-0 pl-7 opacity-100 md:opacity-100 top-80 md:top-0 transition-all ease-in duration-500">
-          <li class="sm:inline-block"><a href="index.html">HOME</a></li>
-                <li class="sm:inline-block"><a href="awards.html">AWARDS</a></li>
-                <li class="sm:inline-block"><a href="portfolio.html">PORTFOLIO</a></li>
-                <li class="sm:inline-block"><a href="resume.html">RESUME</a></li>
-                <li class="sm:inline-block"><a href="about.html">ABOUT</a></li>
-                <li class="sm:inline-block"><a href="contact.html">CONTACT</a></li>
-            </ul>
-      </nav>
-  
-  </div>
-  </div>
-  </header>
-    
-     
-    
-  <main class="flex items-center justify-center border p-4 bg-gray-600">
-        <article>
-            <h2>ARCHIEVEMENTS</h2>
-            <section>
-              <h3>2019</h3>
-              <p>High School A' level certification</p>
-            </section>
-            <section >
-              <h3>2020</h3>
-              <p>Computer Operations and Packages</p>
-            </section>
-            <section>
-              <h3>2021</h3>
-              <p>Description of the third award.</p>
-            </section>
-            <section >
-              <h3>2022</h3>
-              <p>Certificate III in Information Technology in Website development</p>
-            </section>
-            <section >
-                <h3>2023</h3>
-                <p>Cerificate IV in Information Technology (programming)</p>
-              </section>
-
-              <section class>
-                <h2>Form</h2>
-                <form id="apiForm">
-                  <label for="inputField">Enter a number:</label>
-                  <input type="number" id="inputField" required>
-                  <button type="button" onclick="performAPICall()">Click me</button>
-              </form>
-              <div id="responseContainer"></div>
-    
-              </section>
-
-          </article>
-          <aside class=" h-2 overflow-hidden">
-    <img src="./Assets/img/awards.jpg" alt="programmers looking at programming memes" class=">
-</aside>
-
-        
-    </main>
-    <footer class=" bottom-0 left-0 w-full bg-black text-white text-center p-10">
-
-      <nav>
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="awards.html">AWARDS</a></li>
-          <li><a href="portfolio.html">PORTFOLIO</a></li>
-          <li><a href="resume.html">RESUME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
+<header class="sticky top-0 flex flex-col md:flex-row justify-between p-6 mx-auto bg-black text-gray-200">
+    <h2 class="text-lg font-bold">Tadiwanashe Gukwa</h2>
+    <nav class="shadow sm:flex-row sm:items-center md:flex md:items-center md:justify-between">
+        <ul class="md:flex md:items-center sm:flex flex:row sm:space-x-4 sm:items-center w-full md:w-auto md:py-0 py-4 md:pl-0 pl-7 opacity-100 md:opacity-100 top-80 md:top-0 transition-all ease-in duration-500">
+            <li class="sm:inline-block"><a href="index.html">HOME</a></li>
+            <li class="sm:inline-block"><a href="awards.html">AWARDS</a></li>
+            <li class="sm:inline-block"><a href="portfolio.html">PORTFOLIO</a></li>
+            <li class="sm:inline-block"><a href="resume.html">RESUME</a></li>
+            <li class="sm:inline-block"><a href="about.html">ABOUT</a></li>
+            <li class="sm:inline-block"><a href="contact.html">CONTACT</a></li>
         </ul>
-      </nav>
-      &copy; Copyright 2023, Tadiwanashe Gukwa
-    </footer>
-   
-   <script src="./Assets/js/scripts.js"></script>
-  </body>
-  </html>
-  
+    </nav>
+</header>
+
+<main class="flex items-center justify-center border p-4 bg-gray-600">
+  <article>
+    <h2>ARCHIEVEMENTS</h2>
+    <section>
+      <h3>2019</h3>
+      <p>High School A' level certification</p>
+    </section>
+    <section>
+      <h3>2020</h3>
+      <p>Computer Operations and Packages</p>
+    </section>
+    <section>
+      <h3>2021</h3>
+      <p>Telecommunication Engineering academic transcript</p>
+    </section>
+    <section>
+      <h3>2022</h3>
+      <p>Certificate III in Information Technology in Website development</p>
+    </section>
+    <section>
+        <h3>2023</h3>
+        <p>Cerificate IV in Information Technology (programming)</p>
+      </section>
+    <section>
+        <h2>Form</h2>
+        <form id="apiForm">
+            <label for="inputField">Enter a number:</label>
+            <input type="number" id="inputField" required>
+            <button type="button" onclick="performAPICall()">Click me</button>
+        </form>
+        <div id="responseContainer"></div>
+    </section>
+  </article>
+
+  <aside class="h-2 overflow-hidden">
+    <img src="./Assets/img/awards.jpg" alt="medal">
+  </aside>
+</main>
+
+<footer class="bottom-0 left-0 w-full bg-black text-white text-center p-10">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="awards.html">AWARDS</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    &copy; Copyright 2023, Tadiwanashe Gukwa
+</footer>
+
+<script src="./Assets/js/scripts.js"></script>
+</body>
+</html>
