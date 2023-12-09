@@ -1,3 +1,3 @@
 # AT3-PROJ-FINAL-PROJECT
 
-This project is a website resume that has detailed information about my portfolio, archievements and how to contact me
+This project is a a representation of the skills and knowledge I have gained as well as my motivation to take this path in studying this career.
